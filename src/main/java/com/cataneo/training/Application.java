@@ -16,9 +16,12 @@ public class Application {
 	
     public Application() {
         System.out.println ("Inside Application");
-        List<Integer> numbers = new ArrayList<Integer>();
+        List<Integer> numbers = new ArrayList<>();
         numbers.add(1);
         numbers.add(2);
+        numbers.add(3);
+        numbers.add(3);
+        numbers.add(3);
         numbers.add(3);
         System.out.println (numbers);
     }
